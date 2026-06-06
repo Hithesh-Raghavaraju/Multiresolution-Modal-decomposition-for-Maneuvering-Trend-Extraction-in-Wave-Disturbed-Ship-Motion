@@ -10,7 +10,7 @@
 
 ## ✨ Key Features
 
-* [cite_start]**No Fixed Frequency Cutoffs:** Replaces traditional static filters (e.g., Butterworth or Low-Pass) with an adaptive, eigenvalue-driven separation scheme based on system physics  [cite: 58-59, 92].
+* **No Fixed Frequency Cutoffs:** Replaces traditional static filters (e.g., Butterworth or Low-Pass) with an adaptive, eigenvalue-driven separation scheme based on system physics  [cite: 58-59, 92].
 * **State Space Augmentation:** Leverages Hankel embedding to calculate full system momentum and trajectory parameters from single-sensor profiles.
 * **Recursive Multiscale Analysis:** Features custom multi-level windowing algorithms to capture transient behavior without spectral smearing.
 * **Robust Multivariate Prediction:** Models cross-variable coupling (e.g., Surge-Sway-Roll coupling) to predict complex multi-axis motion states simultaneously.
@@ -40,7 +40,11 @@ Evaluating short-term predictive tracking over a specific time horizon:
 
 ## 📂 Repository Structure
 ├── final.m                 # Main execution script running Monte Carlo loops & analytics
+<br>
 ├── run_mrdmd_recursive.m   # Engine implementing the tree level partitioning and mrDMD logic
+<br>
 ├── get_level_data.m        # Helper function managing hierarchical matrix indexing
+<br>
 ├── ship_data.csv           # Multi-axis ship simulation sensor logs (Raw Dataset)
+<br>
 └── README.md               # Documentation guide
