@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Field](https://img.shields.io/badge/Field-Control%20Systems%20%2F%20Ocean%20Engineering-green)](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition)
 
-[cite_start]An operator-theoretic, data-driven framework designed to isolate low-frequency ship maneuvering trends from high-frequency wave-induced noise  [cite: 14-16, 55, 376-377]. [cite_start]This repository contains a two-stage implementation: **Multiresolution Dynamic Mode Decomposition (mrDMD)** for non-stationary trend extraction (denoising)  [cite: 16, 139-141] and an optimized multivariate **Hankel-DMD** model for highly accurate, short-term forecasting.
+An operator-theoretic, data-driven framework designed to isolate low-frequency ship maneuvering trends from high-frequency wave-induced noise  [cite: 14-16, 55, 376-377]. [cite_start]This repository contains a two-stage implementation: **Multiresolution Dynamic Mode Decomposition (mrDMD)** for non-stationary trend extraction (denoising)  [cite: 16, 139-141] and an optimized multivariate **Hankel-DMD** model for highly accurate, short-term forecasting.
 
 ---
 
