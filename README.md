@@ -1,7 +1,6 @@
 # Multiresolution Koopman Framework for Ship Motion Denoising & Prediction
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023a%2B-orange.svg)](https://www.mathworks.com/products/matlab.html)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Field](https://img.shields.io/badge/Field-Control%20Systems%20%2F%20Ocean%20Engineering-green)](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition)
 
 An operator-theoretic, data-driven framework designed to isolate low-frequency ship maneuvering trends from high-frequency wave-induced noise. This repository contains a two-stage implementation: **Multiresolution Dynamic Mode Decomposition (mrDMD)** for non-stationary trend extraction (denoising) and an optimized multivariate **Hankel-DMD** model for highly accurate, short-term forecasting.
@@ -37,7 +36,6 @@ Evaluating short-term predictive tracking over a specific time horizon:
 | **Roll Rate ($p$)** | 0.00063 | 0.20079 | 0.33554 | **10.08 Seconds** |
 
 ---
-
 ## 📂 Repository Structure
 ├── final.m                 # Main execution script running Monte Carlo loops & analytics
 <br>
