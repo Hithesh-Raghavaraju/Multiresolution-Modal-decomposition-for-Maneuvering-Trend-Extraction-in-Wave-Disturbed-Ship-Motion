@@ -4,13 +4,13 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Field](https://img.shields.io/badge/Field-Control%20Systems%20%2F%20Ocean%20Engineering-green)](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition)
 
-An operator-theoretic, data-driven framework designed to isolate low-frequency ship maneuvering trends from high-frequency wave-induced noise  [cite: 14-16, 55, 376-377]. [cite_start]This repository contains a two-stage implementation: **Multiresolution Dynamic Mode Decomposition (mrDMD)** for non-stationary trend extraction (denoising)  [cite: 16, 139-141] and an optimized multivariate **Hankel-DMD** model for highly accurate, short-term forecasting.
+An operator-theoretic, data-driven framework designed to isolate low-frequency ship maneuvering trends from high-frequency wave-induced noise. This repository contains a two-stage implementation: **Multiresolution Dynamic Mode Decomposition (mrDMD)** for non-stationary trend extraction (denoising) and an optimized multivariate **Hankel-DMD** model for highly accurate, short-term forecasting.
 
 ---
 
 ## ✨ Key Features
 
-* **No Fixed Frequency Cutoffs:** Replaces traditional static filters (e.g., Butterworth or Low-Pass) with an adaptive, eigenvalue-driven separation scheme based on system physics  [cite: 58-59, 92].
+* **No Fixed Frequency Cutoffs:** Replaces traditional static filters (e.g., Butterworth or Low-Pass) with an adaptive, eigenvalue-driven separation scheme based on system physics.
 * **State Space Augmentation:** Leverages Hankel embedding to calculate full system momentum and trajectory parameters from single-sensor profiles.
 * **Recursive Multiscale Analysis:** Features custom multi-level windowing algorithms to capture transient behavior without spectral smearing.
 * **Robust Multivariate Prediction:** Models cross-variable coupling (e.g., Surge-Sway-Roll coupling) to predict complex multi-axis motion states simultaneously.
